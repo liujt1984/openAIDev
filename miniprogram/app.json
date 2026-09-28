@@ -1,0 +1,22 @@
+{
+  "pages": ["pages/home/home", "pages/publish/publish", "pages/journeys/journeys", "pages/profile/profile", "pages/detail/detail"],
+  "window": {
+    "navigationBarTitleText": "GX民高拼车",
+    "navigationBarBackgroundColor": "#fff8f0",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fff8f0"
+  },
+  "tabBar": {
+    "color": "#7d7580", "selectedColor": "#f05a36", "backgroundColor": "#ffffff", "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/home/home", "text": "找同行" },
+      { "pagePath": "pages/publish/publish", "text": "发一程" },
+      { "pagePath": "pages/journeys/journeys", "text": "行程" },
+      { "pagePath": "pages/profile/profile", "text": "我的" }
+    ]
+  },
+  "permission": { "scope.userLocation": { "desc": "用于在地图中选择接送地点，不会持续获取位置" } },
+  "requiredPrivateInfos": ["getLocation", "chooseLocation"],
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

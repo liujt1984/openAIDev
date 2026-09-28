@@ -1,0 +1,17 @@
+{
+  "description": "同校家长顺路互助拼车",
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "compileType": "miniprogram",
+  "appid": "wx8693bf913fd9d666",
+  "projectname": "GX民高拼车",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "urlCheck": true,
+    "uglifyFileName": false
+  },
+  "libVersion": "latest"
+}

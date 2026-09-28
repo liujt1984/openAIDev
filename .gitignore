@@ -1,0 +1,8 @@
+node_modules/
+project.private.config.json
+.DS_Store
+coverage/
+*.log
+artifacts/
+outputs/
+.trash/

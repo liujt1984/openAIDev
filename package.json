@@ -1,0 +1,16 @@
+{
+  "name": "wuming-parent-carpool",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test --test-isolation=none tests/*.test.js",
+    "check": "node scripts/check.js",
+    "smoke": "node scripts/smoke.js",
+    "test:demo": "node scripts/demo-e2e.js",
+    "test:cloud": "node scripts/cloud-smoke.js",
+    "sync:cloud": "node scripts/sync-cloud.js"
+  },
+  "devDependencies": {
+    "miniprogram-automator": "^0.12.1"
+  }
+}
